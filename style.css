@@ -1,8 +1,57 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color:ghostwhite;
 }
-.title{
-    color: green;
+.title {
+  color: green;
+  text-align: center;
+}
+.section-title{
+    color: orange;
+}
+.parent {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+.left p{
+    text-align: justify;
+}
+.photo img {
+  width: 240px;
+}
+.btn-detail {
+  background-image: linear-gradient(45deg, red, green, red, green);
+  color: gainsboro;
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.divishons{
+    display: flex;
+    justify-content: space-around;
+}
+.divishion-title{
     text-align: center;
+}
+.size{
+    width: 230px;
+    box-shadow: 10px 10px 20px seagreen;
+    border-radius: 10px;
+}
+.Dhaka img{
+    width: 100%;
+}
+
+.Rajshahi img{
+    width: 100%;
+}
+
+.Sylhet img{
+    width: 100%;
+}
+.box-text{
+    padding: 15px ;
 }
